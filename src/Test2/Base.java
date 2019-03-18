@@ -1,0 +1,10 @@
+package Test2;
+
+public class Base {
+    public Base(){
+        System.out.println("Base--默认构造方法");
+    }
+    public Base(int c){
+        System.out.println("Base--有参构造方法--" + c);
+    }
+}
